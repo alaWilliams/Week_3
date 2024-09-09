@@ -1,3 +1,6 @@
+// Create a simple program in which the user is asked to give two numbers and then your program prints out which one of them is largest.
+
+
 process.stdout.write("This program can find the larger of two numbers you enter. Please, enter two numbers separated by single space character:");
 process.stdin.on('data', function (userInput) {
  let numbersInString = userInput.toString().split(" ");
